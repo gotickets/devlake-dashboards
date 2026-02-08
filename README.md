@@ -27,17 +27,9 @@ The setup assumes that the dashboards connect to the datasource named `mysql` de
 grafana setup on devlake. 
 
 You are also free to import individual dashboard json files into your current Devlake instance. 
+. 
 
-We will retain all the existing dashboard under the Core Dashboards folder and our open source dashboards are under the "Polaris Open Source"
-folder. 
 
-More dashboards will show up here as we port things over. 
-
-# Progress
-
-# 1/30/2025: 
-    - Drop-in replacement for core grafana image and CI/CD pipeline 
-    - Ported customized PRCycleTimeAnalysis dashboard  to Polaris Open Source. 
 
 
 Check back for more updates. If you check it out, and find issues, please report them. 
