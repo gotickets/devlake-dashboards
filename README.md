@@ -1,5 +1,9 @@
 # Open source Grafana Dashboards for Apache DevLake
 
+> **gotickets fork.** Trimmed to the dashboards we use: Homepage, Engineering Overview, DORA (overview, by team,
+> validation, and the five detail boards), Jenkins, Jira, GitHub, Deployments (Apache DevLake's ArgoCD board at
+> `v1.0.3-beta10`, renamed) and Issue Releases. Every board follows the Grafana time picker (default `now-6M` to `now`).
+
 This repo contains open source dashboards that you can install on [Apache Devlake](https://devlake.apache.org) to get visibility and measure key aspects of your product and delivery process. 
 
 These are the a subset of dashboards we use with clients in [The Polaris Advisor Program](https://polaris-advisor.com). 
@@ -33,4 +37,3 @@ You are also free to import individual dashboard json files into your current De
 
 
 Check back for more updates. If you check it out, and find issues, please report them. 
-
