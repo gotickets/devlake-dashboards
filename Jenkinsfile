@@ -43,12 +43,6 @@ pipeline {
     }
 
     stage('Push to ECR staging') {
-      when {
-        anyOf {
-          branch 'main'
-          branch 'cursor/trim-dashboards-a1d1'
-        }
-      }
       steps {
         sh '''
           set -eu
