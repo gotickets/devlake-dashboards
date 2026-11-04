@@ -2,7 +2,7 @@
 
 > **gotickets fork.** Trimmed to the dashboards we use: Homepage, Engineering Overview, DORA (overview, by team,
 > validation, and the five detail boards), Jenkins, Jira, GitHub, Deployments (Apache DevLake's ArgoCD board at
-> `v1.0.3-beta10`, renamed) and Issue Releases. Every board follows the Grafana time picker (default `now-6M` to `now`).
+> `v1.0.3-beta10`, renamed) and Issue Releases. Every board follows the Grafana time picker (default `now-24h` to `now`).
 
 This repo contains open source dashboards that you can install on [Apache Devlake](https://devlake.apache.org) to get visibility and measure key aspects of your product and delivery process. 
 
